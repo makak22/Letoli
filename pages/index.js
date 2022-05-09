@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Bienvenue sur letoli, votre dictionnaire argotique du Gabon
+          Bienvenue sur letoli, votre dictionnaire argotique du Gabon.
         </h1>
 
         <p className={styles.description}>
