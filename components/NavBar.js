@@ -7,7 +7,7 @@ function NavBar() {
         <div className="content">
             <nav className="navBar">
                 <Link href="/">
-                    <a>Letoli</a>
+                    <a>LETOLI</a>
                 </Link>
             </nav>   
                 <div>

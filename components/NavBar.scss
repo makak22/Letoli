@@ -50,6 +50,7 @@
 }
 
 .navBar{
+    padding: 5px;
     a{
         color: #1ABC9C;
         text-decoration: none;
@@ -60,7 +61,7 @@
 .navForm{
     height:40px;
     width: 95%;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.4rem;
     border-radius:10px; 
     border-style: none;
     padding: 0 4%;
@@ -69,17 +70,30 @@
 
 @media only screen and (min-width : 150px) and (max-width : 400px)
 {
+    .navBar{
+        padding: 0px;
+        a{
+            color: #1ABC9C;
+            text-decoration: none;
+            font-size: 30px;
+            font-family: 'tw cen mt';
+            font-weight: 600;
+        }
+    }
 	.navForm
 	{
 		background-color: #303543;
         text-align: center;
         margin-top: 20px;
-        height:35px;
+        height:40px;
+        width: 100%;
+        font-size: 23px;
+        font-family: 'tw cen mt';
 	}
     .containe{
         height: 152px;
     }
     .content{
-        padding: 30px;
+        padding: 20px;
     }
 }
