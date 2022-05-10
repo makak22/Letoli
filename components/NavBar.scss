@@ -1,4 +1,4 @@
-.containe{
+/*.containe{
    
     background-color: #252B39;
 }
@@ -28,7 +28,7 @@
 
 }
 
-/*
+
 @media only screen and (min-width : 150px) and (max-width : 780px)
 {
 	.navForm
@@ -37,3 +37,49 @@
 	}
 
 */
+
+.containe{
+    background-color:#252B39;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.content{
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+.navBar{
+    a{
+        color: #1ABC9C;
+        text-decoration: none;
+        font-size: 30px;
+    }
+}
+
+.navForm{
+    height:40px;
+    width: 95%;
+    margin-bottom: 1.2rem;
+    border-radius:10px; 
+    border-style: none;
+    padding: 0 4%;
+    
+}
+
+@media only screen and (min-width : 150px) and (max-width : 400px)
+{
+	.navForm
+	{
+		background-color: #303543;
+        text-align: center;
+        margin-top: 20px;
+        height:35px;
+	}
+    .containe{
+        height: 152px;
+    }
+    .content{
+        padding: 30px;
+    }
+}
