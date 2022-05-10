@@ -1,43 +1,3 @@
-/*.containe{
-   
-    background-color: #252B39;
-}
-
-.navBar{
-    max-width: 780px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-
-    a{
-        color: #1ABC9C;
-        text-decoration: none;
-        font-size: 30px;
-        margin: 0.7rem;
-    }
-}
-
-.navForm{
-    height:40px;
-    width: 95%;
-    margin-bottom: 1.2rem;
-    border-radius:10px;
-    border-color: white; 
-    border-style: none;
-    padding: 0 2%;
-
-}
-
-
-@media only screen and (min-width : 150px) and (max-width : 780px)
-{
-	.navForm
-	{
-		width: 100%;
-	}
-
-*/
-
 .containe{
     background-color:#252B39;
     width: 100%;
@@ -53,8 +13,10 @@
     padding: 5px;
     a{
         color: #1ABC9C;
-        text-decoration: none;
+        text-decoration: unset;
         font-size: 30px;
+        font-family: 'tw cen mt';
+        font-weight: 600;
     }
 }
 
@@ -65,6 +27,8 @@
     border-radius:10px; 
     border-style: none;
     padding: 0 4%;
+    font-size: 23px;
+    font-family: 'tw cen mt';
     
 }
 
@@ -74,7 +38,7 @@
         padding: 0px;
         a{
             color: #1ABC9C;
-            text-decoration: none;
+            text-decoration: unset;
             font-size: 30px;
             font-family: 'tw cen mt';
             font-weight: 600;

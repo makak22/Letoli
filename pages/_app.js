@@ -3,12 +3,12 @@ import "../styles/index.scss";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <div>
       <NavBar />
       <div className="container">
         <Component {...pageProps} />
       </div>
-    </>  
+    </div>  
   );
 }
 

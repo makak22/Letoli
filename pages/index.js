@@ -1,4 +1,5 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Words from './words';
 
 
 export default function Home() {
@@ -9,15 +10,17 @@ export default function Home() {
         <meta name="description" content="Le dico du Boma" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0" />
         <link rel="icon" href="/favicon.ico" />
+        <link
+            rel="preload"
+            href="../public/fonts/fontscorecomttcenmt.ttf"
+            as="font"
+          />
       </Head>
 
       <main>
-        <p> voice la principale</p>
-        <p> voice la principale</p>
-        <p> voice la principale</p>
-        <p> voice la principale</p>
-        
+        <Words />
       </main>
     </div>
   )
 }
+
