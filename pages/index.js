@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Suggestions  from './suggestions'
 
 
 export default function Home() {
@@ -17,13 +18,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <div>
-          <p>sss</p>
-          <p>wwsww</p>
-          <p>voissla</p>
-          <h1>popoh</h1>
-          <p>ss</p>
-        </div>
+        <Suggestions />
       </main>
       
     </div>
