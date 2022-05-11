@@ -1,7 +1,8 @@
 import React from "react"
-import axios from "axios";
+import words from "../public/data/database.json"
 
-function Definition({words}) {
+
+function Definition() {
    const idNum = 1;
     return (
         <div className="defContainer">
@@ -9,6 +10,7 @@ function Definition({words}) {
             <div className="defHeader">
               <h1 className="defDetails defDef ">{words.data[idNum].attributes.mot}</h1>
             </div>
+            
           <div className="defMot">  
             <div>
               <h2 className="defTitle">Définition</h2>
@@ -31,13 +33,3 @@ function Definition({words}) {
 }
 
 export default Definition;
-
-export async function getStaticProps() {
-    const wordsRes = await axios.get('../public/data/database.json');
-
-    return {
-      props:{
-        words: wordsRes.data
-      }
-    }
-  }
