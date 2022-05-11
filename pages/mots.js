@@ -1,4 +1,3 @@
-import axios from 'axios';
 import React from 'react';
 
 function Mots({words}) {
@@ -11,13 +10,3 @@ function Mots({words}) {
   )
 }
 export default Mots ;
-
-export async function getStaticProps() {
-  const wordsRes = await axios.get('../public/data/database.json');
-
-  return {
-    props:{
-      words: wordsRes.data
-    }
-  }
-}
