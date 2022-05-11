@@ -2,11 +2,10 @@ import React from "react"
 import axios from "axios";
 
 function Definition({words}) {
-    console.log(words)
+   
     return (
         <div>
             <p>voici les definitions</p>
-            <h1>{words[0].id}</h1>
            
         </div>
         

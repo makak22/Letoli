@@ -2,8 +2,7 @@ import axios from 'axios';
 import React from 'react';
 
 function Words(props) {
-  const nn = props.words
-console.log(nn)
+  
   return (
     <div>
         <p>sss</p>
