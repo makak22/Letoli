@@ -1,12 +1,11 @@
 import React from "react"
 import axios from "axios";
 
-function Definition({words}) {
+function Definition() {
    
     return (
         <div>
-            <p>voici les definitions</p>
-           
+            <p>voici les definitions</p>  
         </div>
         
     )

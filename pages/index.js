@@ -20,6 +20,7 @@ export default function Home() {
       <main>
         <Words />
       </main>
+      
     </div>
   )
 }

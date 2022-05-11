@@ -1,13 +1,12 @@
 import axios from 'axios';
 import React from 'react';
 
-function Words(props) {
+function Words() {
   
   return (
     <div>
         <p>sss</p>
         <p>wwww</p>
-        
     </div>
   )
 }
