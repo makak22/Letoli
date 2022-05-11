@@ -1,5 +1,6 @@
 import React from "react"
 import words from "../public/data/database.json"
+import Link from 'next/link'
 
 function Suggestions() {
    
@@ -7,11 +8,13 @@ function Suggestions() {
     const database = words.data;
     return (
         <div className="sugContainer">  
+        <Link href="./definition">
             <div className="aSensContainer">
                 <h1 className="leMot">{database[idNum].attributes.mot}</h1>
                 <h3 className="defDetails">{words.data[idNum].attributes.definition}</h3>
                 <h3 className="defDetails defEx">{words.data[idNum].attributes.definitionEx}</h3>
             </div>
+        </Link>
 
             <div className="aSensContainer">
                 <h1 className="leMot">{words.data[idNum].attributes.mot}</h1>
