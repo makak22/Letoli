@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Words from './words';
+import Mots from './mots';
 
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Words />
+        <Mots />
       </main>
       
     </div>
