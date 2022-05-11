@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Mots from './mots';
 
 
 export default function Home() {
@@ -18,7 +17,12 @@ export default function Home() {
       </Head>
 
       <main>
-        <Mots />
+        <div>
+          <p>sss</p>
+          <p>wwsww</p>
+          <p>voila</p>
+          <h1>popoh</h1>
+        </div>
       </main>
       
     </div>
