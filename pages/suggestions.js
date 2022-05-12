@@ -1,7 +1,8 @@
 import React from "react"
 import words from "../public/data/database.json"
 import Link from 'next/link'
-//<Link href="./definition">
+
+
 function Suggestions() {
    
     const mots = words.data
