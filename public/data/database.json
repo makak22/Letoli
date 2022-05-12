@@ -1,31 +1,90 @@
 {
     "data": [
       {
+        "id": 1,
+        "attributes": {
+          "mot": "Mid",
+          "createdAt": "2022-05-10T20:02:39.520Z",
+          "updatedAt": "2022-05-10T20:17:16.252Z",
+          "publishedAt": "2022-05-10T20:02:41.159Z",
+          "definition": {
+            "1": "Used to insult or degrade an opposing opinion, labelling it as average or poor quality",
+            "2":" 2Used to insult or degrade an opposing opinion, labelling it as average or poor quality",
+            "3":" 3Used to insult or degrade an opposing opinion, labelling it as average or poor quality"
+          },
+          "definitionEx": {
+            "1":"we waited on that album for 6 months but it was mid",
+            "2":"2we waited on that album for 6 months but it was mid",
+            "3":"3we waited on that album for 6 months but it was mid"
+          },
+          "synonymes": {
+            "1":"lol, ksa, lopoa",
+            "2":"2lol, ksa, lopoa",
+            "3":"3lol, ksa, lopoa"
+          },
+          "expression": {
+            "1":"je wanda sur le frangin al.\nohh popoh lw reeel ??\nmani was toi quel since",
+            "2":"2je wanda sur le frangin al.\nohh popoh lw reeel ??\nmani was toi quel since",
+            "3":"3je wanda sur le frangin al.\nohh popoh lw reeel ??\nmani was toi quel since"
+          }
+        }
+      },
+      {
         "id": 2,
         "attributes": {
           "mot": "Mid",
           "createdAt": "2022-05-10T20:02:39.520Z",
           "updatedAt": "2022-05-10T20:17:16.252Z",
           "publishedAt": "2022-05-10T20:02:41.159Z",
-          "sens1": true,
-          "definition": "Used to insult or degrade an opposing opinion, labelling it as average or poor quality",
-          "definitionEx": "we waited on that album for 6 months but it was mid",
-          "synonymes": "lol, ksa, lopoa",
-          "expression": "je wanda sur le frangin al.\nohh popoh lw reeel ??\nmani was toi quel since"
+          "definition": {
+            "1": "Used to insult or degrade an opposing opinion, labelling it as average or poor quality",
+            "2":null,
+            "3":null
+          },
+          "definitionEx": {
+            "1":"we waited on that album for 6 months but it was mid",
+            "2":null,
+            "3":null
+          },
+          "synonymes": {
+            "1":"lol, ksa, lopoa",
+            "2":null,
+            "3":null
+          },
+          "expression": {
+            "1":"je wanda sur le frangin al.\nohh popoh lw reeel ??\nmani was toi quel since",
+            "2":null,
+            "3": null
+          }
         }
       },
       {
-        "id": 4,
+        "id": 3,
         "attributes": {
-          "mot": "bledina",
-          "createdAt": "2022-05-10T20:37:11.781Z",
-          "updatedAt": "2022-05-10T20:37:14.125Z",
-          "publishedAt": "2022-05-10T20:37:14.121Z",
-          "sens1": true,
-          "definition": "a noun that is used by Ukrainians to identify a russian missile. Was specifically used during air rides to warn civilians about the flying missiles across the country. Roughly can be translated into “deadly ugly fucking bitch”",
-          "definitionEx": "Bledina is flying, sit in bomb shelters.",
-          "synonymes": "Літає блядина, сидіть в укриттях.",
-          "expression": "First was used as a term to describe air raids in Kharkiv group on Telegram “Huyeviy Kharkov” although spelled in russian as blyadina because it is a russian speaking group (Kharkiv is mostly russian speaking city, although many people are trying to forget it there now)."
+          "mot": "Mid",
+          "createdAt": "2022-05-10T20:02:39.520Z",
+          "updatedAt": "2022-05-10T20:17:16.252Z",
+          "publishedAt": "2022-05-10T20:02:41.159Z",
+          "definition": {
+            "1": "Used to insult or degrade an opposing opinion, labelling it as average or poor quality",
+            "2":" 2Used to insult or degrade an opposing opinion, labelling it as average or poor quality",
+            "3": null
+          },
+          "definitionEx": {
+            "1":"we waited on that album for 6 months but it was mid",
+            "2":"2we waited on that album for 6 months but it was mid",
+            "3":null
+          },
+          "synonymes": {
+            "1":"lol, ksa, lopoa",
+            "2":"2lol, ksa, lopoa",
+            "3":"3lol, ksa, lopoa"
+          },
+          "expression": {
+            "1":"je wanda sur le frangin al.\nohh popoh lw reeel ??\nmani was toi quel since",
+            "2":"2je wanda sur le frangin al.\nohh popoh lw reeel ??\nmani was toi quel since",
+            "3":null
+          }
         }
       }
     ],
