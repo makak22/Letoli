@@ -5,6 +5,7 @@ import Link from 'next/link'
 function Suggestions() {
    
     const mots = words.data
+    
     return (
         <div className="sugContainer">
             {mots.map((mot) => (

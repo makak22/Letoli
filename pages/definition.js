@@ -14,16 +14,16 @@ function Definition() {
           <div className="defMot">  
             <div>
               <h1 className="defTitle">Définition</h1>
-              <h3 className="defDetails defMain">{words.data[idNum].attributes.definition}</h3>
-              <h3 className="defDetails defEx">{words.data[idNum].attributes.definitionEx}</h3>
+              <h3 className="defDetails defMain">{words.data[idNum].attributes.definition[1]}</h3>
+              <h3 className="defDetails defEx">{words.data[idNum].attributes.definitionEx[1]}</h3>
             </div>
             <div>
               <h1 className="defTitle">Synonymes</h1>
-              <h3 className="defDetails">{words.data[idNum].attributes.synonymes}</h3>
+              <h3 className="defDetails">{words.data[idNum].attributes.synonymes[1]}</h3>
             </div>
             <div>
               <h1 className="defTitle">Expression</h1>
-              <h3 className="defDetails">{words.data[idNum].attributes.expression}</h3>
+              <h3 className="defDetails">{words.data[idNum].attributes.expression[1]}</h3>
             </div>
           </div>  
             
