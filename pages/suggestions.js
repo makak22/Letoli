@@ -8,6 +8,7 @@ function Suggestions() {
     return (
         <div className="sugContainer">
             {mots.map((mot) => (
+            <div key={mot.id}>
               <Link href="./definition">
                   <div className="aSensContainer">
                     <h1 className="leMot">{mot.attributes.mot}</h1>
@@ -29,6 +30,7 @@ function Suggestions() {
     
                   </div>
               </Link>
+            </div>
             ))}
         </div>
       )
