@@ -1,5 +1,5 @@
 import React from "react"
-import words from "../public/data/database.json"
+import words from "../../public/data/database.json"
 
 
 function Definition() {

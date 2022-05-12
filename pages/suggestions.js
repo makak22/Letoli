@@ -1,7 +1,7 @@
 import React from "react"
 import words from "../public/data/database.json"
 import Link from 'next/link'
-
+//<Link href="./definition">
 function Suggestions() {
    
     const mots = words.data
@@ -10,7 +10,7 @@ function Suggestions() {
         <div className="sugContainer">
             {mots.map((mot) => (
             <div key={mot.id}>
-              <Link href="./definition">
+              <Link href={`./definition/${mot.id}`}>
                   <div className="aSensContainer">
                     <h1 className="leMot">{mot.attributes.mot}</h1>
                     {mot.attributes.definition[2] != null && <h3 className="sens">Sens 1</h3>}
