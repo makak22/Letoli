@@ -86,6 +86,35 @@
             "3":null
           }
         }
+      },
+      {
+        "id": 4,
+        "attributes": {
+          "mot": "Badeconiser",
+          "createdAt": "2022-05-10T20:02:39.520Z",
+          "updatedAt": "2022-05-10T20:17:16.252Z",
+          "publishedAt": "2022-05-10T20:02:41.159Z",
+          "definition": {
+            "1": "Processus par lequel une enquête est menée pour faire la lumière sur une situation afin de remettre les choses en ordre.",
+            "2":null,
+            "3": null
+          },
+          "definitionEx": {
+            "1":"Ce petit semble avoir tort dans ce qu'il a dit, il mérite d'être bodeconisé.",
+            "2":null,
+            "3":null
+          },
+          "synonymes": {
+            "1":"sicia",
+            "2":null,
+            "3":null
+          },
+          "expression": {
+            "1":"ce samedi tu vas te faire badeconiser",
+            "2":null,
+            "3":null
+          }
+        }
       }
     ],
     "meta": {
