@@ -1,11 +1,12 @@
 import React from "react"
 import words from "../public/data/database.json"
+import { toli } from '../public/data/ladatabase';
 import Link from 'next/link'
 
 
 function Suggestions() {
    
-    const mots = words.data
+    const mots = toli
     
     return (
         <div className="sugContainer">

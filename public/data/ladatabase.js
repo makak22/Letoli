@@ -28,7 +28,7 @@ export const toli = [
       {
         "id": 2,
         "attributes": {
-          "mot": "vrai",
+          "mot": "Vrai",
           "createdAt": "2022-05-10T20:02:39.520Z",
           "updatedAt": "2022-05-10T20:17:16.252Z",
           "publishedAt": "2022-05-10T20:02:41.159Z",
