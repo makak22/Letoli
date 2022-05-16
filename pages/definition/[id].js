@@ -18,7 +18,7 @@ export const getStaticPaths = async() => {
     return{ paths, fallback: false}
 }
 
-export default ({mot}) =>(
+const Definition = ({mot}) =>(
 
     <div className="defContainer">
 
@@ -81,3 +81,4 @@ export default ({mot}) =>(
     </div>        
 
 )
+export default Definition;
