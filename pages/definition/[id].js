@@ -1,7 +1,6 @@
 import { toli } from '../../public/data/ladatabase';
 import React from 'react'
 
-
 export const getStaticProps = async ({params}) => {
     const tolis = toli.filter(mot => mot.id.toString() === params.id)
     return {
@@ -81,4 +80,5 @@ const Definition = ({mot}) =>(
     </div>        
 
 )
+
 export default Definition;
