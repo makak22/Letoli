@@ -1,5 +1,4 @@
 import React from "react"
-import words from "../public/data/database.json"
 import { toli } from '../public/data/ladatabase';
 import Link from 'next/link'
 
