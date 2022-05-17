@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="apple-touch-icon" href="/icon-192x192.png" />
         <meta name="theme-color" content="#252B39" />
         <link rel='apple-touch-startup-image' href='/images/apple_splash_640.png' sizes='640x1136' />
-        <link rel='apple-touch-startup-image' href='/images/apple_splash_750.png' sizes='750x1334' />
+        <link rel='apple-touch-startup-image' href='/images/apple_splash_750.png' media='(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)' />
       </Head>
 
       <main>
