@@ -35,6 +35,23 @@
     
 }
 
+.navContainer{
+    padding: 0.1px 15px;
+    cursor: pointer;
+}
+.results{
+    background-color: rgba(48, 53, 67, 1);
+    border-radius: 5px;
+    border-color: white;
+    border: solid 1px white;
+    padding: 0.1px 15px;
+    opacity: 0.98;
+    position: sticky;
+    color: #1ABC9C;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+
 @media only screen and (min-width : 150px) and (max-width : 400px)
 {
     .navBar{
@@ -59,8 +76,15 @@
 	}
     .containe{
         height: 152px;
+        position: fixed;
     }
     .content{
         padding: 25px;
+    }
+    .navContainer{
+        cursor: pointer;
+        position: fixed;
+        margin-top: -15px;
+        width: 100%;
     }
 }

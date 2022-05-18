@@ -13,7 +13,7 @@
     margin-top: 15px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  cursor: pointer
+    cursor: pointer
 
 }
 
@@ -34,4 +34,11 @@
     font-family: Trebuchet MS;
     padding-left: 3px;
     margin-left: 10px;
+}
+
+@media only screen and (min-width : 150px) and (max-width : 400px)
+{
+  .sugContainer{
+    margin-top: 167px;
+  }
 }
