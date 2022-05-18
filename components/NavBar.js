@@ -45,8 +45,7 @@ function NavBar() {
                         </Link>
                     </div>
                     ))}
-                {lesMots.length != 0 ? "" : <h3>Aucun resultat</h3> }
-        
+                {lesMots.length != 0 ? "" : <h3>Aucun resultat</h3> }       
             </div>
         </div>
     )}
