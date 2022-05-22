@@ -323,7 +323,7 @@ export const toli = [
       {
         "id": 13,
         "attributes": {
-          "mot": "Mapane",
+          "mot": "Ngangman",
           "definition": {
             "1": "Processus par lequel une enquête est menée pour faire la lumière sur une situation afin de remettre les choses en ordre.",
             "2":null,
