@@ -1,15 +1,16 @@
 .containe{
     background-color:#252B39;
     width: 100%;
-    height: auto;
+    height: 120px;
+    position: fixed;
     text-align: center;
-    position: sticky;
     top: 0;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .content{
     max-width: 780px;
     margin: 0 auto;
+    padding: 15px;
 }
 
 .navBar{
@@ -38,6 +39,9 @@
 .navContainer{
     padding: 0.1px 15px;
     cursor: pointer;
+    position: fixed;
+    margin-top: -15px;
+    width: 100%;
 }
 .results{
     background-color: rgba(48, 53, 67, 1);
@@ -56,13 +60,6 @@
 {
     .navBar{
         padding: 0px;
-        a{
-            color: #1ABC9C;
-            text-decoration: unset;
-            font-size: 30px;
-            font-family: 'tw cen mt';
-            font-weight: 600;
-        }
     }
 	.navForm
 	{
