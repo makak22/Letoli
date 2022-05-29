@@ -16,7 +16,7 @@ export const toli = [
             "3": null
           },
           "synonymes": {
-            "1":"Probleme 🇫🇷, Chiba , Nix",
+            "1":"Probleme 🇫🇷, Chiba, Nix",
             "2":null,
             "3":null
           },
