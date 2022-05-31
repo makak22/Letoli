@@ -3,25 +3,27 @@ export const toli = [
         "id": 1,
         "attributes": {
           "mot": "Palaba",
+          "genre":"m",
+          "nature":"nom",
           "definition": {
-            "1": "Used to insult or degrade an opposing opinion, labelling it as average or poor quality",
-            "2":" 2Used to insult or degrade an opposing opinion, labelling it as average or poor quality",
-            "3":" 3Used to insult or degrade an opposing opinion, labelling it as average or poor quality"
+            "1": "Question ou situation considérée comme indésirable ou nuisible et devant être traitée et surmontée.",
+            "2": null,
+            "3": null
           },
           "definitionEx": {
-            "1":"we waited on that album for 6 months but it was mid",
-            "2":"2we waited on that album for 6 months but it was mid",
-            "3":"3we waited on that album for 6 months but it was mid"
+            "1":"Franck devrait resoudre ce palaba maintenant.",
+            "2":null,
+            "3": null
           },
           "synonymes": {
-            "1":"lol, ksa, lopoa",
-            "2":"2lol, ksa, lopoa",
-            "3":"3lol, ksa, lopoa"
+            "1":"Probleme 🇫🇷, Chiba, Nix",
+            "2":null,
+            "3":null
           },
           "expression": {
-            "1":"je wanda sur le frangin al.\nohh popoh lw reeel ??\nmani was toi quel since",
-            "2":"2je wanda sur le frangin al.\nohh popoh lw reeel ??\nmani was toi quel since",
-            "3":"3je wanda sur le frangin al.\nohh popoh lw reeel ??\nmani was toi quel since"
+            "1":"Mani, tu aimes trop les palabas.",
+            "2":null,
+            "3":null
           }
         }
       },
