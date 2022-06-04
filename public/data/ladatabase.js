@@ -3,8 +3,9 @@ export const toli = [
         "id": 1,
         "attributes": {
           "mot": "Palaba",
-          "genre":"m",
+          "genre":"masculin",
           "nature":"nom",
+          "action":"suggerable",
           "definition": {
             "1": "Question ou situation considérée comme indésirable ou nuisible et devant être traitée et surmontée.",
             "2": null,
@@ -16,7 +17,7 @@ export const toli = [
             "3": null
           },
           "synonymes": {
-            "1":"Probleme 🇫🇷, Chiba, Nix",
+            "1":"Problème 🇫🇷, Chiba, Nix",
             "2":null,
             "3":null
           },
