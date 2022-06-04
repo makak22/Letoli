@@ -28,7 +28,7 @@ const Definition = ({mot}) =>(
     <div className="defMot">  
             <div>
                 <h1 className="defTitle">Définition</h1>
-                <h4 style={"color:white"}>{mot.attributes.nature} {mot.attributes.genre}</h4>
+                <h4 style={"color:blue"}>{mot.attributes.nature} {mot.attributes.genre}</h4>
                 <h3 className="defDetails defMain">{mot.attributes.definition[1]}</h3>
                 <h3 className="defDetails defEx">{mot.attributes.definitionEx[1]}</h3>
             </div>
