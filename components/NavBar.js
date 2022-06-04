@@ -20,7 +20,7 @@ function NavBar() {
                     <a onClick={toggle}>LETOLI</a>
                 </Link>
             </nav>   
-                <div>
+            <div>
                     <input
                         className="navForm"
                         placeholder="Recherche"
@@ -30,7 +30,7 @@ function NavBar() {
                         value={searchValue}
                         
                     />
-                </div>
+            </div>
         </div>       
         </div>
 
