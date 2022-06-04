@@ -7,7 +7,7 @@ export const toli = [
           "nature":"nom",
           "action":"suggerable",
           "definition": {
-            "1": "Question ou situation considérée comme indésirable ou nuisible et devant être traitée et surmontée.",
+            "1": "Une situation considérée comme indésirable ou nuisible et devant être traitée et surmontée.",
             "2": null,
             "3": null
           },
@@ -32,9 +32,9 @@ export const toli = [
         "id": 2,
         "attributes": {
           "mot": "Panawara",
-          "createdAt": "2022-05-10T20:02:39.520Z",
-          "updatedAt": "2022-05-10T20:17:16.252Z",
-          "publishedAt": "2022-05-10T20:02:41.159Z",
+          "genre":"masculin",
+          "nature":"nom",
+          "action":"suggerable",
           "definition": {
             "1": "tres haut niveau de puissance",
             "2":null,

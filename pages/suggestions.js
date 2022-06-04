@@ -13,6 +13,7 @@ function Suggestions() {
             <div key={mot.id}>
               <Link href={`definition/${mot.id}`}>
                   <div className="aSensContainer">
+                    <h4 style="color:powderblue">{mot.attributes.nature}{mot.attributes.genre}</h4>
                     <h1 className="leMot">{mot.attributes.mot}</h1>
                     {mot.attributes.definition[2] != null && <h3 className="sens">Sens 1</h3>}
                     <h3 className="defDetails">{mot.attributes.definition[1]}</h3>
