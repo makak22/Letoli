@@ -30,22 +30,22 @@ export const toli = [
       {
         "id": 2,
         "attributes": {
-          "mot": "Vrai",
+          "mot": "Panawara",
           "createdAt": "2022-05-10T20:02:39.520Z",
           "updatedAt": "2022-05-10T20:17:16.252Z",
           "publishedAt": "2022-05-10T20:02:41.159Z",
           "definition": {
-            "1": "Used to insult or degrade an opposing opinion, labelling it as average or poor quality",
+            "1": "tres haut niveau de puissance",
             "2":null,
             "3":null
           },
           "definitionEx": {
-            "1":"we waited on that album for 6 months but it was mid",
+            "1":"j'ai atteind le panawara dans ma carriere",
             "2":null,
             "3":null
           },
           "synonymes": {
-            "1":"lol, ksa, lopoa",
+            "1":"Kinda, Waze",
             "2":null,
             "3":null
           },
