@@ -56,5 +56,34 @@ export const toli = [
             "3": null
           }
         }
+      },
+      {
+        "id": 3,
+        "attributes": {
+          "mot": "Badeconiser",
+          "genre":null,
+          "nature":"verbe",
+          "action":"suggerable",
+          "definition": {
+            "1": "Processus par lequel une enquête est menée pour faire la lumière sur une situation afin de remettre les choses en ordre.",
+            "2":null,
+            "3": null
+          },
+          "definitionEx": {
+            "1":"Ce petit semble avoir tort dans ce qu'il a dit, il mérite d'être bodeconisé.",
+            "2":null,
+            "3":null
+          },
+          "synonymes": {
+            "1":"Sicia",
+            "2":null,
+            "3":null
+          },
+          "expression": {
+            "1":"Ce samedi, tu vas te faire badeconiser",
+            "2":null,
+            "3":null
+          }
+        }
       }
 ]
