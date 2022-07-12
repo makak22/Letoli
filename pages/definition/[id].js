@@ -1,4 +1,5 @@
 import { toli } from '../../public/data/ladatabase';
+import Head from 'next/head';
 import React from 'react'
 
 export const getStaticProps = async ({params}) => {
