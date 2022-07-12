@@ -21,7 +21,7 @@ export const getStaticPaths = async() => {
 const Definition = ({mot}) =>(
     <div> 
         <Head>
-            <title>{mot.attributes.mot}</title>
+            <title>{mot.attributes.mot} | Letoli</title>
             <meta name="description" content={mot.attributes.definition[1]} />
             <meta name="google-site-verification" content="uq71f8h7iEOhXgFST7h6wtNHE3jeyGa_rxV6mF1qVo4" />
             <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover' />
