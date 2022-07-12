@@ -1,6 +1,7 @@
 import React from "react"
 import { toli } from '../public/data/ladatabase';
 import Link from 'next/link'
+import Head from 'next/head';
 
 
 function Suggestions() {
@@ -8,6 +9,12 @@ function Suggestions() {
     const mots = toli
     
     return (
+      <div>
+        <Head>
+          <title>Letoli</title>
+          <meta name="description" content="Le dico du Boma" />
+        </Head>
+      
         <div className="sugContainer">
             {mots.map((mot) => (
             <div key={mot.id}>
@@ -35,6 +42,7 @@ function Suggestions() {
             </div>
             ))}
         </div>
+      </div>
       )
 }
 

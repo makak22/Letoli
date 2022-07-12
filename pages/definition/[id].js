@@ -18,9 +18,13 @@ export const getStaticPaths = async() => {
 }
 
 const Definition = ({mot}) =>(
-
-    <div className="defContainer">
-
+    <div> 
+        <Head>
+            <title>{mot.attributes.mot}</title>
+            <meta name="description" content={mot.attributes.definition[1]} />
+        </Head>
+        <div className="defContainer">
+    
     <div className="defHeader">
       <h1 className="defDetails defDef ">{mot.attributes.mot}</h1>
     </div>
@@ -77,7 +81,8 @@ const Definition = ({mot}) =>(
             </div>
         </div>
         } 
-    </div>        
+        </div>   
+    </div>     
 
 )
 
