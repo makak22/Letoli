@@ -18,7 +18,7 @@ function Suggestions() {
         <div className="sugContainer">
             {mots.map((mot) => (
             <div key={mot.id}>
-              <Link href={`definition/${mot.id}`}>
+              <Link href={`definition/${mot.attributes.mot}`}>
                   <div className="aSensContainer">
                     <h1 className="leMot">{mot.attributes.mot}</h1>
                     {mot.attributes.definition[2] != null && <h3 className="sens">Sens 1</h3>}
