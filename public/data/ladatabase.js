@@ -90,7 +90,7 @@ export const toli = [
         "id": 4,
         "attributes": {
           "mot": "Ngata",
-          "genre":null,
+          "genre":"masculin",
           "nature":"nom",
           "action":"suggerable",
           "definition": {
@@ -111,6 +111,35 @@ export const toli = [
           "expression": {
             "1":"Le ngata est la maison des voleurs",
             "2":null,
+            "3":null
+          }
+        }
+      },
+      {
+        "id": 5,
+        "attributes": {
+          "mot": "Ngombi",
+          "genre":"masculin",
+          "nature":"nom",
+          "action":"suggerable",
+          "definition": {
+            "1": "Instrument de musique à cordes sacré utilisé dans les rites du Bwiti au Gabon, permettant de communiquer avec le monde invisible",
+            "2":"Un appareil de télécommunication utilisé pour parler dans les deux sens avec une autre personne.",
+            "3": null
+          },
+          "definitionEx": {
+            "1":"Pendant les rites du Bwiti, c'est notre grand-père qui jouait avec le ngombi",
+            "2":"J'ai besoin de telephoner à ma petite soeur, pourrais-tu me passer ton ngombi?.",
+            "3":null
+          },
+          "synonymes": {
+            "1":null,
+            "2":"allo-allo",
+            "3":null
+          },
+          "expression": {
+            "1":"il n'existe pas de Bwiti sans Ngombi",
+            "2":"Aujourd'hui, on peut se faire de l'argent avec un ngombi",
             "3":null
           }
         }
