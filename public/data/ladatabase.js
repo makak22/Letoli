@@ -85,5 +85,34 @@ export const toli = [
             "3":null
           }
         }
+      },
+      {
+        "id": 4,
+        "attributes": {
+          "mot": "Ngata",
+          "genre":null,
+          "nature":"nom",
+          "action":"suggerable",
+          "definition": {
+            "1": "Un lieu ou une institution d'enfermement, en particulier d'enfermement à long terme pour les personnes condamnées pour des crimes graves ou considérées comme indésirables par la loi.",
+            "2":null,
+            "3": null
+          },
+          "definitionEx": {
+            "1":"Le ngata a été une expérience douloureuse pour lui, il ne volera plus.",
+            "2":null,
+            "3":null
+          },
+          "synonymes": {
+            "1":"Don",
+            "2":null,
+            "3":null
+          },
+          "expression": {
+            "1":"Le ngata est la maison des voleurs",
+            "2":null,
+            "3":null
+          }
+        }
       }
 ]
