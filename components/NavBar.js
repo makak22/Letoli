@@ -35,6 +35,7 @@ function NavBar() {
         </div>
 
     {searchValue.length != 0 &&(
+       
         <div className='navContainer'>
             <div className='results' >
                 {lesMots.slice(0, 10).map((mot) =>(
