@@ -143,5 +143,63 @@ export const toli = [
             "3":null
           }
         }
+      },
+      {
+        "id": 6,
+        "attributes": {
+          "mot": "Bangando",
+          "genre":"masculin",
+          "nature":"nom",
+          "action":"suggerable",
+          "definition": {
+            "1": "Personne qui, généralement en raison d'un désavantage social, s'est tournée vers la criminalité (par exemple, vente de drogues, vol, agression, etc.) pour gagner sa vie.",
+            "2": null,
+            "3": null
+          },
+          "definitionEx": {
+            "1":"La vie n'a pas toujours été facile pour lui, il est devenu un bangando",
+            "2": null,
+            "3":null
+          },
+          "synonymes": {
+            "1":"Ndoss",
+            "2": null,
+            "3": null
+          },
+          "expression": {
+            "1":"A la fin, la vie du bangando ne payent jamais",
+            "2":null,
+            "3":null
+          }
+        }
+      },
+      {
+        "id": 7,
+        "attributes": {
+          "mot": "Toli",
+          "genre":"masculin",
+          "nature":"nom | verbe",
+          "action":"suggerable",
+          "definition": {
+            "1": "Langage en dehors de l'usage conventionnel et dans le registre informel. ",
+            "2": null,
+            "3": null
+          },
+          "definitionEx": {
+            "1":"Les jeunes se sentent plus à l'aise à discuter avec le toli des bangandos.",
+            "2": null,
+            "3":null
+          },
+          "synonymes": {
+            "1":"Jargon 🇫🇷",
+            "2": null,
+            "3": null
+          },
+          "expression": {
+            "1":"Le toli du bangando",
+            "2":null,
+            "3":null
+          }
+        }
       }
 ]
