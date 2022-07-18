@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Letoli</title>
-        <meta name="description" content="Letoli est un dictionnaire de mots et expressions du l'argot Gabonais" />
+        <meta name="description" content="Letoli est un dictionnaire de mots et expressions du l'argot Gabonais." />
         <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover' />
         <link rel="icon" href="/favicon.png" />
         <link rel="manifest" href="/manifest.json" />
