@@ -201,5 +201,34 @@ export const toli = [
             "3":null
           }
         }
+      },
+      {
+        "id": 8,
+        "attributes": {
+          "mot": "Becto",
+          "genre":"masculin",
+          "nature":"nom",
+          "action":"suggerable",
+          "definition": {
+            "1": "Toute substance solide qui peut être consommée par les organismes vivants, notamment en mangeant, afin d'entretenir la vie.",
+            "2": null,
+            "3": null
+          },
+          "definitionEx": {
+            "1":"Franck a servit le becto à table.",
+            "2": null,
+            "3":null
+          },
+          "synonymes": {
+            "1":"Nourriture 🇫🇷, \n Bema, \n Bèlet",
+            "2": null,
+            "3": null
+          },
+          "expression": {
+            "1":"Il est midi, on mange le becto de maman",
+            "2":null,
+            "3":null
+          }
+        }
       }
 ]
