@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "xyz.appmaker.ucagld",
+      "sha256_cert_fingerprints": ["B1:91:D2:BC:F0:4F:08:5D:BF:7B:98:0A:6E:74:1C:21:46:78:AE:8F:46:0C:E4:8D:73:F2:F5:E6:EC:BF:CE:34"]
+    }
+  }
+]
